@@ -1,0 +1,136 @@
+/* rest of app styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.nav {
+  width: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(5, 54, 70);
+  height: 60px;
+  padding-left: 80px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  margin: right 170px;
+  gap: 15px;
+}
+
+.nav-brand {
+  color: rgb(192, 237, 238);
+}
+
+.menu .menu-btn {
+  background-color: rgb(249, 6 164);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.menu .menu-btn:hover {
+  background-color: rgb(199, 14, 91);
+}
+
+/* Search bar */
+.search-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.search-input {
+  width: 260px;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  background-color: rgb(192, 237, 238);
+}
+
+/* /Users/Humble/Documents/reactsFiles/blogApp/blogapp/src/Styles.css */
+/* post */
+.post-container {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 124px;
+}
+
+.blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  align-items: last baseline;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  border: 0.0625rem solid rgba(220, 224, 229, 0.6);
+}
+
+/* .blog-grid {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+} */
+
+/* Style for each individual post */
+.mess {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* Add more styling as needed */
+}
+
+/* forms
+ */
+.form-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container form {
+  width: 400px;
+  background-color: rgb(118, 118, 185);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px 40px 40px;
+}
+
+.form-container form h2 {
+  color: red;
+}
+.addnewblog {
+  text-align: center;
+}
+.form-container form div {
+  margin-top: 80px;
+}
+
+.form-container form input {
+  width: 100%;
+  padding: 10px;
+}
+
+/* .mess {
+  align-self: stretch;
+
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+} */
